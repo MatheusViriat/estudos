@@ -1,0 +1,27 @@
+Características do conjunto de dados: Multivariada
+Número de instâncias: 961
+Area: Vida
+Características dos Atributos: Inteiro
+Número de atributos: 6
+Data doada: 29/10/2007
+Tarefas associadas: Classificação
+Valores perdidos? Sim
+
+Informação do conjunto de dados: 
+A mamografia é o método mais efetivo para a seleção do câncer de mama disponível hoje. No entanto, o valor preditivo baixo positivo da biópsia mamária resultante da interpretação da mamografia leva a aproximadamente 70% de biópsias desnecessárias com resultados benignos. Para reduzir o elevado número de biópsias de mama desnecessárias, vários sistemas de diagnóstico por computador (CAD) foram propostos nos últimos anos. Esses sistemas ajudam os médicos na sua decisão de realizar uma biópsia de mama em uma lesão suspeita vista em uma mamografia ou para realizar Um exame de acompanhamento de curto prazo em vez disso. Este conjunto de dados pode ser usado para prever a gravidade (benigna ou maligna) de uma lesão de massa mamográfica de atributos de BI-RADS e a idade do paciente. Contém uma avaliação de BI-RADS, a idade do paciente e três atributos de BI-RADS juntamente com a verdade terrestre (campo de gravidade) para 516 massas benignas e 445 malignas que foram identificadas em mamografias digitais de campo completo coletadas no Instituto de Radiologia de A Universidade Erlangen-Nuremberg entre 2003 e 2006. Cada instância possui uma avaliação BI-RADS associada que varia de 1 (definitivamente benigna) a 5 (altamente sugestivo de malignidade) atribuído em um processo de revisão dupla pelos médicos. Supondo que todos os casos com avaliações de BI-RADS maiores ou iguais a um determinado valor (variando de 1 a 5), ​​são malignos e os outros casos benignos, sensibilidades e especificidades associadas podem ser calculados. Estes podem ser uma indicação de quão bem um sistema de CAD executa em comparação com os radiologistas. 
+Distribuição de classe: benigna: 516; Maligno: 445
+
+Informações do Atributo: 6 Atributos no total (1 campo de objetivo, 1 não-preditivo, 4 atributos preditivos) 
+1. Avaliação BI-RADS: 1 a 5 (ordinal, não-preditivo!) 
+2. Idade: idade do paciente em anos (inteiro) 
+3. Forma da massa: {arredondada = 1, oval = 2, lobular = 3, irregular = 4} (nominal) 
+4. Margem da massa: {circunscrita = 1, microlobulada = 2, obscura = 3, mal definida = 4, especulada = 5} (nominal) 
+5. Densidade da massa: {alta = 1, iso = 2, baixa = 3, gordurosa = 4} (ordinal) 
+6. Severidade: {benigno = 0, ou maligno = 1} (binário, variável alvo)
+
+Valores de Atribuição perdidos:
+- Avaliação BI-RADS: 2
+- Idade: 5 - Forma: 31
+- Margem: 48
+- Densidade: 76
+- Severidade: 0
